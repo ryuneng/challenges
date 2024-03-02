@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-class StackQueue {
+class StackTest {
     private static String now = "";                       // 현재페이지를 저장할 문자열
     private static Stack<String> back = new Stack<>();    // 이전페이지를 저장할 스택
     private static Stack<String> forward = new Stack<>(); // 다음페이지를 저장할 스택
